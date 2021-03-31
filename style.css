@@ -1,0 +1,135 @@
+*{
+    margin:0px;
+    padding:0px;
+    
+  }
+  li{
+      list-style: none;
+  }
+  .comp1{
+    margin: 10px 52px;
+    
+  }
+  a{
+    margin: 55px;
+      text-decoration: none;
+      color: #7a6666;
+	font-family: lato-regular-webfont;
+	font-size: 20px;
+  }
+  .container{
+      
+    background:brown;
+     width:auto;
+    height:100vh;
+    display:grid;
+    grid-template-rows:19% 85% 45% 22%; 
+    
+  }
+  .header{background:#eeebec;position: relative;}
+  .header div {
+    
+      width: 950px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);   
+	/* width: 940px; */
+    overflow: hidden;
+     display: flex;
+}
+.list1{
+    
+    position: absolute;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     right:0px;
+     bottom:0px;
+}
+span{
+    width: auto;
+}
+  .image{background:blue;
+  background-image:url("bg-home.jpg");
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+  }
+  .content{background:#eae7e8;}
+  .footer{background:#c8c10d;}
+  .side-img{
+    
+    bottom:0px;
+     right:170px;
+    height:220px;
+    width:250px;
+    background-image:url("yogurt.jpg");
+    background-size:100% 100%;
+  }
+  .content{
+    background: #eae7e8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+  }
+  h1{
+   padding: 0px 0px 30px;
+   font-size: 18px;
+   text-transform: uppercase;
+   color: #7A6666;
+  }
+  h2{
+    padding: 0px 0px 30px; 
+    color: #E32A62;
+    font-family: magra-bold-webfont;
+    font-size: 30px;
+    font-weight:400px;
+  }
+  p{
+    color: #7A6666;
+  }
+  .text{
+    position: absolute;
+    width: 789px;
+    gap: 12px;
+    display: flex;
+    bottom: 0px;
+  }
+
+
+.footer-list li a {
+    background: url(icons.png) no-repeat;
+    display: block;
+    height: 44px;
+    margin: 0 auto 22px;
+    padding: 0;
+    width: 80px;
+
+}
+.footer-list li a.product {
+  background-position: 0 -373px;
+}
+.footer-list li a.about {
+  background-position: 0 -420px;
+}
+.footer-list li a.flavor {
+  background-position: 0 -280px;
+}
+.footer-list li a.contact {
+  background-position: 0 -328px;
+}
+.footer-list{
+  display: flex;
+  justify-content: center;
+}
+  @media screen and (max-width:500px){
+    body{
+      width:100vw;
+    }
+    .container{
+      width:100vw;
+    }
+  }
